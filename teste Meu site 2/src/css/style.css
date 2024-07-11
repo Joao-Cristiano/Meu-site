@@ -1,0 +1,475 @@
+body {
+    font-family: "Rajdhani", sans-serif;
+    background-image: url(../img/download\ \(2\).jpg);
+}
+
+header {
+    text-align: center;
+    background: linear-gradient(#3dfdfd,#aefdf9,#FFFFFF);
+    border: 2px solid black;
+    margin-bottom: 20px;
+    width: calc(100% - 4px);
+}
+
+header .container {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+header .container img {
+    width: 450px;
+    border-radius: 15px;
+    border: 2px solid blue
+}
+
+nav {
+   width: 600px;
+   margin: auto;
+   display: flex;
+   justify-content: space-evenly;
+}
+
+nav a {
+    background-color:#00d1d1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-decoration: none;
+    color: #10009c;
+    font-size: 18px;
+    border-radius: 15px;
+}
+
+nav a:hover {
+    background-color: rgb(17, 0, 255);
+    color:#000;
+    font-weight: bold;
+    box-shadow: 5px 3px 20px rgb(0, 238, 255);
+}
+
+main {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#segunda .container {
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#segunda .titulo {
+    font-size: 30px;
+    margin: 10px 0;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgb(0, 81, 255);
+}
+
+#segunda .paragrafo {
+    font-size: 22px;
+    line-height: 28px;
+    max-width: 800px;
+    margin: 20px auto 0 auto;
+}
+
+#segunda .paragrafo1 {
+    color: #00fff2;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 28px;
+    max-width: 800px;
+    margin: 20px auto 0 auto;
+    text-shadow: 2px 2px 2px #10009c;
+}
+
+#segunda span {
+    font-weight: bold;
+}
+
+#segunda .missao {
+    font-style: italic;
+    font-weight: unset;
+}
+
+#diferenciais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: #00d1d1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+#diferenciais .container {
+    padding: 20px;
+    background-color: #00fff2;
+    width: 500px;
+    height: 250px;
+    margin: auto;
+    border-radius: 25px;
+    border: 2px solid black;
+}
+
+#diferenciais .title-diferenciais {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #ffffff;
+}
+
+#diferenciais .title-diferenciais p {
+    font-size: 25px;
+    margin: 10px 0;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px #0011ff ;
+}
+
+#diferenciais .title-diferenciais img {
+    width: 55px;
+}
+
+#diferenciais ul {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#diferenciais ul li {
+    margin: 12px 0;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#diferenciais ul li:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    color:#FFFFFF;
+    text-shadow: 2px 2px 5px blue;
+}
+
+#diferenciais .ex {
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px blue;
+}
+
+#diferenciais .fotodiferenciais img {
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+#horario-funcionamento .container {
+    width: 500px;
+    margin: auto;
+    padding: 30px 0;
+}
+
+#horario-funcionamento .container tbody tr {
+    background-color: #FFFFFF;
+}
+
+#horario-funcionamento table {
+    width: 320px;
+    margin:auto;
+    border: 1px solid #000;
+    font-size: 20px;
+}
+
+#horario-funcionamento table th {
+    width: 130px;
+    border: 1px solid #000;
+    background-color: #bffdfd;
+}
+
+#horario-funcionamento table td {
+    border: 1px solid #000;
+    text-align: center;
+    padding: 2px 0;
+}
+
+#localizacao {
+    width: calc(100% - 4px);
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+#localizacao iframe {
+    border-radius: 15px;
+}
+
+
+/* INICIOM DO CSS PÁGINA DE SERVIÇOS */
+
+.servicos{
+    width: 1500px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 70px 0;
+}
+
+.servicos .servico{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 275px;
+    height: 400px;
+    border: 2px solid rgb(78, 78, 78);
+    text-align: center;
+    border-radius: 15px;
+    padding: 15px; 
+
+}
+
+.servico .title{
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+.servico .preco{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.servico img {
+    width: 225px;
+    border-radius: 15px;
+}
+
+.servico:hover{
+    background-color: #bcfafc;
+    border-color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.servico img:hover{
+    transition: .5s;
+    transform: scale(1.1) translateY(-5px);
+    border: 2px solid black;
+}
+
+#recomendacao {
+    width: 1150px;
+    justify-content: space-between;
+    background-color: #aebaff;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    padding: 17px;
+    border-radius: 15px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+
+
+#recomendacao .soma {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#recomendacao .igual {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#recomendacao .servico {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    width: 250px;
+    height: 365px;
+    border: 2px solid rgb(78, 78, 78);
+    text-align: center;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+/*INICIO DO CSS PÁGINA DE CONTATO*/
+
+main form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+}
+
+
+main form input {
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+    border: 2px solid rgb(110, 110, 110);
+}
+
+main form input:focus {
+    outline-color:#00f7ff;
+    
+}
+
+main form label {
+    margin-top: 15px;
+}
+
+main form textarea {
+    width: 300px;
+    border-radius: 5px;
+    border: 2px solid rgb(110, 110, 110);
+}
+
+main form textarea:focus {
+    outline-color:#00f7ff;
+
+}
+
+main form button {
+    width: 300px;
+    height: 40px;
+    margin: 40px 0;
+    border-radius: 15px;
+    border: 1px solid #000000;
+    background-color:#00ffdd;
+    color:#006964;
+    font-size: 18px;
+    font-family: "Rajdhani", sans-serif;
+}
+    
+
+
+main form button:hover{
+    color: #000;
+    background-color: rgb(47, 0, 255);
+    box-shadow: 5px 3px 20px rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
+    font-weight: bold;
+    
+
+
+}
+
+footer {
+    background:linear-gradient(#FFFFFF,#aefdf9,#3dfdfd);
+    width: 100%;
+}
+
+footer .container{
+    margin: 0 100px;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .container .logo {
+    width: 300px;
+    border-radius: 15px;
+    border: 2px solid blue;
+}
+
+footer .midias {
+    width: 320px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer .midias img {
+    width: 50px;
+}
+
+footer .midias a {
+    transition: 0.3s;
+}
+
+footer .midias a:hover {
+    transform: translateY(-15px);
+}
+
+@media (max-width:1024px) {
+    .servicos {
+        width: 100%;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    #recomendacao {
+        width: 100%;
+        justify-content:space-between;
+        padding: 5px 0px;
+    }
+}
+
+@media (max-width:769px) {
+    #recomendacao {
+        justify-content: center;
+        gap: 6px;
+    }
+
+    footer .container {
+        margin: 0px 35px;
+    }
+    
+}
+
+@media (max-width:426px) {
+    header .container img {
+        width: 96%;
+    }
+
+    nav a {
+        padding-left: 25px;
+        padding-right: 25px;
+        text-align: center;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    #diferenciais {
+        width: 92%;
+    }
+
+    #diferenciais .container {
+        width: 90%;
+    }
+
+    footer .container .logo {
+        width: 40%;
+    }
+
+    footer .container {
+        margin: 0px 0px;
+    }
+
+    #horario-funcionamento .container {
+        width: 100%;
+    }
+
+}
+
+@media (max-width:376px) {
+    footer .midias img {
+        width: 45px;
+    }
+}
+
+
+
